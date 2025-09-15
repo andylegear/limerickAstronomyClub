@@ -1,0 +1,279 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Limerick Astronomy Club - Meetings Timetable">
+  <meta name="keywords" content="Astronomy, Ireland, Limerick, Astronomy Club, Meetings, Timetable">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meetings Timetable - Limerick Astronomy Club</title>
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <meta property="og:title" content="Meetings Timetable - Limerick Astronomy Club">
+  <meta property="og:description" content="View the Limerick Astronomy Club meetings timetable - first Thursday of every month at 8 PM with guest speakers and educational talks.">
+  <meta property="og:image" content="https://www.limerickastronomyclub.com/_borders/lac_logo.png">
+  <meta property="og:url" content="https://www.limerickastronomyclub.com/meetings_timetable.htm">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,700|Merriweather:700&display=swap">
+  <link rel="stylesheet" href="/style_2025.css">
+</head>
+<body>
+  <canvas id="stars-bg"></canvas>
+
+  <nav>
+    <button class="hamburger-menu" id="hamburger-menu" aria-label="Toggle navigation menu">
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+    </button>
+    <div class="nav-container" id="nav-container">
+      <a href="https://limerickastronomyclub.com/index.htm">Home</a>
+      <a href="https://limerickastronomyclub.com/about_the_club.htm">About</a>
+      <a href="https://limerickastronomyclub.com/how_to_join.htm">Join</a>
+      <a href="https://limerickastronomyclub.com/meetings_timetable.htm" class="active">Meetings</a>
+      <a href="https://limerickastronomyclub.com/gallery.htm">Gallery</a>
+      <a href="https://limerickastronomyclub.com/contacts.htm">Contact</a>
+    </div>
+  </nav>
+
+  <div class="hero-bg">
+    <div class="hero-container">
+      <img src="/_borders/lac_logo.png" alt="Limerick Astronomy Club Logo" class="hero-logo">
+      <div class="hero-content">
+        <h1>Meetings Timetable</h1>
+        <p>Schedule of our upcoming monthly meetings with speakers and topics.</p>
+        <div class="hero-details">
+          <strong>Location:</strong> Mary Immaculate College, Room 202<br>
+          <strong>Meeting Times:</strong> First Thursday of every month at 8 PM<br>
+          <span class="hero-small-text">(Second Thursday in January, no meetings in July/August)</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main-grid">
+    <section class="glass section meetings-timetable">
+      <div class="section-title"><span class="icon">📅</span>Upcoming Meetings</div>
+      
+      <div class="meetings-table">
+        <div class="meetings-header">
+          <div class="meeting-date">Date</div>
+          <div class="meeting-topic">Topic</div>
+          <div class="meeting-speaker">Speaker</div>
+        </div>
+        
+        <div class="meeting-row">
+          <div class="meeting-date">October 2nd, 2025</div>
+          <div class="meeting-topic">V1 The Star That Changed The Universe</div>
+          <div class="meeting-speaker">Tony O'Hanlon</div>
+        </div>
+        
+        <div class="meeting-row">
+          <div class="meeting-date">November 6th, 2025</div>
+          <div class="meeting-topic">TBD</div>
+          <div class="meeting-speaker">John Flannery</div>
+        </div>
+        
+        <div class="meeting-row">
+          <div class="meeting-date">December 4th, 2025</div>
+          <div class="meeting-topic">TBD</div>
+          <div class="meeting-speaker">TBD</div>
+        </div>
+        
+        <div class="meeting-row">
+          <div class="meeting-date">January 8th, 2026</div>
+          <div class="meeting-topic">TBD</div>
+          <div class="meeting-speaker">TBD</div>
+        </div>
+        
+        <div class="meeting-row">
+          <div class="meeting-date">February 5th, 2026</div>
+          <div class="meeting-topic">TBD</div>
+          <div class="meeting-speaker">TBD</div>
+        </div>
+        
+        <div class="meeting-row">
+          <div class="meeting-date">March 5th, 2026</div>
+          <div class="meeting-topic">TBD</div>
+          <div class="meeting-speaker">TBD</div>
+        </div>
+        
+        <div class="meeting-row">
+          <div class="meeting-date">April 2nd, 2026</div>
+          <div class="meeting-topic">TBD</div>
+          <div class="meeting-speaker">TBD</div>
+        </div>
+        
+        <div class="meeting-row">
+          <div class="meeting-date">May 7th, 2026</div>
+          <div class="meeting-topic">TBD</div>
+          <div class="meeting-speaker">TBD</div>
+        </div>
+        
+        <div class="meeting-row">
+          <div class="meeting-date">June 4th, 2026</div>
+          <div class="meeting-topic">TBD</div>
+          <div class="meeting-speaker">TBD</div>
+        </div>
+        
+        <div class="meeting-row no-meeting">
+          <div class="meeting-date">July 2026</div>
+          <div class="meeting-topic" colspan="2">No Meeting</div>
+        </div>
+        
+        <div class="meeting-row no-meeting">
+          <div class="meeting-date">August 2026</div>
+          <div class="meeting-topic" colspan="2">No Meeting</div>
+        </div>
+        
+        <div class="meeting-row agm-meeting">
+          <div class="meeting-date">September 3rd, 2026</div>
+          <div class="meeting-topic">AGM + General Meeting</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="glass section">
+      <div class="section-title"><span class="icon">📍</span>Meeting Information</div>
+      <p>
+        Our club meetings take place at <strong>8:00 PM</strong> on the <strong>first Thursday of every month</strong> 
+        (except January where it is the second Thursday) in <strong>Room 202</strong> at 
+        <a href="http://www.mic.ul.ie/Pages/default.aspx" target="_blank">Mary Immaculate College</a> in Limerick.
+      </p>
+      <p>
+        Meetings are an informal get together. All levels of interest are catered for, from absolute beginner 
+        to the professional. We start off with a brief 20 minute presentation on the projector screen using 
+        planetarium software, showing the sky's highlights for the month. Then we usually have a visiting or 
+        club speaker giving a presentation or workshop.
+      </p>
+      <div class="meeting-info-highlight">
+        <strong>New members welcome!</strong> Please message us through our Facebook page to arrange attendance.
+      </div>
+    </section>
+
+    <section class="glass section">
+      <div class="section-title"><span class="icon">🔭</span>Need Telescope Help?</div>
+      <p>
+        If you have a telescope and are having difficulty or need advice getting a new telescope, you are 
+        welcome to come along to the club meetings and seek our advice. Please mention it to one of the 
+        committee members at the start of the meeting if you have a telescope with you as we have to vacate 
+        the room at 10pm.
+      </p>
+      <p>
+        If you cannot make it to a club meeting, you can always drop us an email - we will do our best to 
+        answer any questions you may have.
+      </p>
+    </section>
+
+    <section class="glass section contact">
+      <div class="section-title"><span class="icon">✉️</span>Contact Us</div>
+      <p>
+        General Email: <a href="mailto:limerickastronomyclub@gmail.com">limerickastronomyclub@gmail.com</a>
+      </p>
+      <p>
+        If you have an interesting astronomically related topic you'd wish to present at a club meeting, 
+        approach any of the committee members at a club meeting and they'll slot you into whatever month suits you.
+      </p>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 Limerick Astronomy Club. All rights reserved.
+  </footer>
+
+  <script>
+    // Pinpoint star drawing/parallax
+    const canvas = document.getElementById('stars-bg');
+    const ctx = canvas.getContext('2d');
+    let stars = [];
+    let w = window.innerWidth, h = window.innerHeight;
+
+    function resizeCanvas() {
+      w = window.innerWidth;
+      h = window.innerHeight;
+      canvas.width = w;
+      canvas.height = h;
+      createStars();
+      drawStars(window.scrollY);
+    }
+
+    function createStars() {
+      stars = [];
+      const starCount = Math.floor(w * h / 1200); // More stars, smaller size
+      for (let i = 0; i < starCount; i++) {
+        stars.push({
+          x: Math.random() * w,
+          y: Math.random() * h * 2,
+          size: 0.7 + Math.random() * 1.8, // Small pinpoints
+          color: Math.random() > 0.85 ? '#ffe066' : '#fff',
+          layer: Math.random() > 0.5 ? 1 : 2
+        });
+      }
+    }
+
+    function drawStars(scrollY) {
+      ctx.clearRect(0, 0, w, h);
+      for (const star of stars) {
+        // Parallax: layer 1 moves less, layer 2 moves more
+        let y = star.y - (scrollY * (star.layer === 1 ? 0.08 : 0.18));
+        // Wrap stars vertically
+        let drawY = ((y % (h * 2)) + h * 2) % (h * 2);
+        if (drawY < h) {
+          ctx.save();
+          ctx.beginPath();
+          ctx.arc(star.x, drawY, star.size, 0, Math.PI * 2);
+          ctx.closePath();
+          ctx.shadowColor = star.color;
+          ctx.shadowBlur = 8;
+          ctx.globalAlpha = 0.85;
+          ctx.fillStyle = star.color;
+          ctx.fill();
+          ctx.restore();
+        }
+      }
+    }
+
+    window.addEventListener('resize', resizeCanvas);
+    window.addEventListener('scroll', () => drawStars(window.scrollY));
+    resizeCanvas();
+  </script>
+  
+  <!-- Hamburger menu functionality -->
+  <script>
+    // Hamburger menu toggle
+    const hamburgerMenu = document.getElementById('hamburger-menu');
+    const navContainer = document.getElementById('nav-container');
+    
+    hamburgerMenu.addEventListener('click', function() {
+      hamburgerMenu.classList.toggle('active');
+      navContainer.classList.toggle('active');
+    });
+    
+    // Close menu when clicking on a navigation link
+    const navLinks = navContainer.querySelectorAll('a');
+    navLinks.forEach(link => {
+      link.addEventListener('click', function() {
+        hamburgerMenu.classList.remove('active');
+        navContainer.classList.remove('active');
+      });
+    });
+    
+    // Close menu when clicking outside
+    document.addEventListener('click', function(event) {
+      const isClickInsideNav = navContainer.contains(event.target);
+      const isClickOnHamburger = hamburgerMenu.contains(event.target);
+      
+      if (!isClickInsideNav && !isClickOnHamburger && navContainer.classList.contains('active')) {
+        hamburgerMenu.classList.remove('active');
+        navContainer.classList.remove('active');
+      }
+    });
+    
+    // Close menu on window resize if it's open
+    window.addEventListener('resize', function() {
+      if (window.innerWidth > 768) {
+        hamburgerMenu.classList.remove('active');
+        navContainer.classList.remove('active');
+      }
+    });
+  </script>
+</body>
+</html>

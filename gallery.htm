@@ -1,0 +1,324 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Limerick Astronomy Club Photo Gallery - Astrophotography by club members">
+  <meta name="keywords" content="Astronomy, Ireland, Limerick, Astronomy Club, Astrophotography, Gallery, Photos">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery - Limerick Astronomy Club</title>
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <meta property="og:title" content="Gallery - Limerick Astronomy Club">
+  <meta property="og:description" content="Explore stunning astrophotography by Limerick Astronomy Club members - from planetary images to deep sky objects.">
+  <meta property="og:image" content="https://www.limerickastronomyclub.com/_borders/lac_logo.png">
+  <meta property="og:url" content="https://www.limerickastronomyclub.com/gallery.htm">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,700|Merriweather:700&display=swap">
+  <link rel="stylesheet" href="/style_2025.css">
+</head>
+<body>
+  <canvas id="stars-bg"></canvas>
+
+  <nav>
+    <button class="hamburger-menu" id="hamburger-menu" aria-label="Toggle navigation menu">
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+    </button>
+    <div class="nav-container" id="nav-container">
+      <a href="https://limerickastronomyclub.com/index.htm">Home</a>
+      <a href="https://limerickastronomyclub.com/about_the_club.htm">About</a>
+      <a href="https://limerickastronomyclub.com/how_to_join.htm">Join</a>
+      <a href="https://limerickastronomyclub.com/meetings_timetable.htm">Meetings</a>
+      <a href="https://limerickastronomyclub.com/gallery.htm" class="active">Gallery</a>
+      <a href="https://limerickastronomyclub.com/contacts.htm">Contact</a>
+    </div>
+  </nav>
+
+  <div class="hero-bg">
+    <div class="hero-container">
+      <img src="/_borders/lac_logo.png" alt="Limerick Astronomy Club Logo" class="hero-logo">
+      <div class="hero-content">
+        <h1>Astrophotography Gallery</h1>
+        <p>Explore the stunning images captured by our club members - from planetary photography to deep sky objects.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="main-grid">
+    <section class="glass section">
+      <div class="section-title"><span class="icon">📸</span>About Our Gallery</div>
+      <p>
+        Many of our club members are avid astrophotographers. This gallery showcases some of their work to date,
+        ranging from detailed planetary images to breathtaking deep sky objects.
+      </p>
+      <p>
+        The club has a <a href="http://www.flickr.com/photos/51029479@N05/" target="_blank">Flickr account</a> 
+        for storing images taken by club members. You can also find an active 
+        <a href="http://shannonsideastronomyclub.com/phpBB3/viewforum.php?f=14" target="_blank">astrophotography section</a> 
+        on our message board with the latest images.
+      </p>
+      <p>
+        If you have images you'd like to add to this gallery, please email them to any of our 
+        <a href="https://limerickastronomyclub.com/contacts.htm">committee members</a>.
+      </p>
+    </section>
+
+    <section class="glass section gallery-section">
+      <div class="section-title"><span class="icon">🌌</span>Image Categories</div>
+      <p>Browse our collection by category - click on any image to view the full slideshow:</p>
+      
+      <div class="gallery-cards">
+        <div class="gallery-card">
+          <a href="http://www.flickr.com/photos/51029479@N05/sets/72157624251050890/show/" target="_blank">
+            <img src="moon.jpg" alt="The Moon" class="gallery-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div class="gallery-image placeholder" style="display:none;">🌙</div>
+          </a>
+          <div class="gallery-category">The Moon</div>
+          <div class="gallery-description">Lunar phases, craters, and surface details captured by our members</div>
+        </div>
+
+        <div class="gallery-card">
+          <a href="http://www.flickr.com/photos/51029479@N05/sets/72157624126707067/show/" target="_blank">
+            <img src="sun.jpg" alt="The Sun" class="gallery-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div class="gallery-image placeholder" style="display:none;">☀️</div>
+          </a>
+          <div class="gallery-category">The Sun</div>
+          <div class="gallery-description">Solar photography including sunspots and solar activity</div>
+        </div>
+
+        <div class="gallery-card">
+          <a href="http://www.flickr.com/photos/51029479@N05/sets/72157624252415588/show/" target="_blank">
+            <img src="s1.jpg" alt="Saturn" class="gallery-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div class="gallery-image placeholder" style="display:none;">🪐</div>
+          </a>
+          <div class="gallery-category">Saturn</div>
+          <div class="gallery-description">The ringed planet in all its glory</div>
+        </div>
+
+        <div class="gallery-card">
+          <a href="http://www.flickr.com/photos/51029479@N05/sets/72157624252426340/show/" target="_blank">
+            <img src="j1.jpg" alt="Jupiter" class="gallery-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div class="gallery-image placeholder" style="display:none;">🌟</div>
+          </a>
+          <div class="gallery-category">Jupiter</div>
+          <div class="gallery-description">The gas giant and its moons</div>
+        </div>
+
+        <div class="gallery-card">
+          <a href="http://www.flickr.com/photos/51029479@N05/sets/72157624127015277/show/" target="_blank">
+            <img src="mars1.jpg" alt="Terrestrial Planets" class="gallery-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div class="gallery-image placeholder" style="display:none;">🔴</div>
+          </a>
+          <div class="gallery-category">Terrestrial Planets</div>
+          <div class="gallery-description">Mars, Venus, and Mercury observations</div>
+        </div>
+
+        <div class="gallery-card">
+          <a href="http://www.flickr.com/photos/51029479@N05/sets/72157624127194153/show/" target="_blank">
+            <img src="outer.jpg" alt="Outer Planets" class="gallery-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div class="gallery-image placeholder" style="display:none;">🌌</div>
+          </a>
+          <div class="gallery-category">Outer Planets</div>
+          <div class="gallery-description">Uranus and Neptune - the distant worlds</div>
+        </div>
+
+        <div class="gallery-card">
+          <a href="http://www.flickr.com/photos/51029479@N05/sets/72157624252244824/show/" target="_blank">
+            <img src="occultationssmallpic.jpg" alt="Conjunctions" class="gallery-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div class="gallery-image placeholder" style="display:none;">🌗</div>
+          </a>
+          <div class="gallery-category">Conjunctions</div>
+          <div class="gallery-description">Planetary alignments and occultations</div>
+        </div>
+
+        <div class="gallery-card">
+          <a href="http://www.flickr.com/photos/51029479@N05/sets/72157624127918283/show/" target="_blank">
+            <img src="satellitessmallpic.jpg" alt="Satellites" class="gallery-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div class="gallery-image placeholder" style="display:none;">🛰️</div>
+          </a>
+          <div class="gallery-category">Satellites</div>
+          <div class="gallery-description">ISS passes and satellite tracking</div>
+        </div>
+
+        <div class="gallery-card">
+          <a href="http://www.flickr.com/photos/51029479@N05/sets/72157624251809648/show/" target="_blank">
+            <img src="m42small.jpg" alt="Deep Sky" class="gallery-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div class="gallery-image placeholder" style="display:none;">🌌</div>
+          </a>
+          <div class="gallery-category">Deep Sky</div>
+          <div class="gallery-description">Nebulae, galaxies, and star clusters</div>
+        </div>
+
+        <div class="gallery-card">
+          <a href="http://www.flickr.com/photos/51029479@N05/sets/72157624127408417/show/" target="_blank">
+            <img src="comets.jpg" alt="Comets" class="gallery-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div class="gallery-image placeholder" style="display:none;">☄️</div>
+          </a>
+          <div class="gallery-category">Comets</div>
+          <div class="gallery-description">Visitors from the outer solar system</div>
+        </div>
+
+        <div class="gallery-card">
+          <a href="http://www.flickr.com/photos/51029479@N05/sets/72157624127701863/show/" target="_blank">
+            <img src="cons.jpg" alt="Constellations" class="gallery-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div class="gallery-image placeholder" style="display:none;">✨</div>
+          </a>
+          <div class="gallery-category">Constellations</div>
+          <div class="gallery-description">Star patterns and asterisms</div>
+        </div>
+
+        <div class="gallery-card">
+          <a href="http://www.flickr.com/photos/51029479@N05/sets/72157624127522875/show/" target="_blank">
+            <img src="auroara.jpg" alt="Aurora" class="gallery-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div class="gallery-image placeholder" style="display:none;">🌈</div>
+          </a>
+          <div class="gallery-category">Aurora</div>
+          <div class="gallery-description">Northern lights visible from Ireland</div>
+        </div>
+
+        <div class="gallery-card">
+          <a href="http://www.flickr.com/photos/51029479@N05/sets/72157624127581733/show/" target="_blank">
+            <img src="noc.jpg" alt="Noctilucent Clouds" class="gallery-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div class="gallery-image placeholder" style="display:none;">☁️</div>
+          </a>
+          <div class="gallery-category">Noctilucent Clouds</div>
+          <div class="gallery-description">Night-shining clouds in summer skies</div>
+        </div>
+
+        <div class="gallery-card">
+          <a href="http://www.flickr.com/photos/51029479@N05/sets/72157624127620103/show/" target="_blank">
+            <img src="Light_Pollution_Ireland_Burren_Starparty.jpg" alt="Miscellaneous" class="gallery-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div class="gallery-image placeholder" style="display:none;">🔭</div>
+          </a>
+          <div class="gallery-category">Miscellaneous</div>
+          <div class="gallery-description">Light pollution studies and other astronomical phenomena</div>
+        </div>
+
+        <div class="gallery-card">
+          <a href="http://www.flickr.com/photos/51029479@N05/sets/72157624127786723/show/" target="_blank">
+            <img src="davedobsmallcopy.jpg" alt="Club Events" class="gallery-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div class="gallery-image placeholder" style="display:none;">👥</div>
+          </a>
+          <div class="gallery-category">Club Events</div>
+          <div class="gallery-description">Star parties, observing sessions, and club activities</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="glass section">
+      <div class="section-title"><span class="icon">🔗</span>External Gallery Links</div>
+      <ul class="activities-list">
+        <li><span class="icon">📸</span><a href="http://www.flickr.com/photos/51029479@N05/" target="_blank">Main Flickr Photostream</a></li>
+        <li><span class="icon">🏷️</span><a href="http://www.flickr.com/photos/tags/shannonsideastronomy" target="_blank">Images tagged with "shannonsideastronomy"</a></li>
+        <li><span class="icon">💬</span><a href="http://shannonsideastronomyclub.com/phpBB3/viewforum.php?f=14" target="_blank">Astrophotography Forum</a></li>
+        <li><span class="icon">🎥</span><a href="http://www.youtube.com/user/shannonsideastronomy" target="_blank">Club YouTube Channel</a></li>
+      </ul>
+      <p>
+        <strong>Note:</strong> If you already have images in your own Flickr account, you can tag them with 
+        "shannonsideastronomy" to include them in the community gallery.
+      </p>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 Limerick Astronomy Club. All rights reserved.
+  </footer>
+
+  <script>
+    // Pinpoint star drawing/parallax
+    const canvas = document.getElementById('stars-bg');
+    const ctx = canvas.getContext('2d');
+    let stars = [];
+    let w = window.innerWidth, h = window.innerHeight;
+
+    function resizeCanvas() {
+      w = window.innerWidth;
+      h = window.innerHeight;
+      canvas.width = w;
+      canvas.height = h;
+      createStars();
+      drawStars(window.scrollY);
+    }
+
+    function createStars() {
+      stars = [];
+      const starCount = Math.floor(w * h / 1200); // More stars, smaller size
+      for (let i = 0; i < starCount; i++) {
+        stars.push({
+          x: Math.random() * w,
+          y: Math.random() * h * 2,
+          size: 0.7 + Math.random() * 1.8, // Small pinpoints
+          color: Math.random() > 0.85 ? '#ffe066' : '#fff',
+          layer: Math.random() > 0.5 ? 1 : 2
+        });
+      }
+    }
+
+    function drawStars(scrollY) {
+      ctx.clearRect(0, 0, w, h);
+      for (const star of stars) {
+        // Parallax: layer 1 moves less, layer 2 moves more
+        let y = star.y - (scrollY * (star.layer === 1 ? 0.08 : 0.18));
+        // Wrap stars vertically
+        let drawY = ((y % (h * 2)) + h * 2) % (h * 2);
+        if (drawY < h) {
+          ctx.save();
+          ctx.beginPath();
+          ctx.arc(star.x, drawY, star.size, 0, Math.PI * 2);
+          ctx.closePath();
+          ctx.shadowColor = star.color;
+          ctx.shadowBlur = 8;
+          ctx.globalAlpha = 0.85;
+          ctx.fillStyle = star.color;
+          ctx.fill();
+          ctx.restore();
+        }
+      }
+    }
+
+    window.addEventListener('resize', resizeCanvas);
+    window.addEventListener('scroll', () => drawStars(window.scrollY));
+    resizeCanvas();
+  </script>
+  
+  <!-- Hamburger menu functionality -->
+  <script>
+    // Hamburger menu toggle
+    const hamburgerMenu = document.getElementById('hamburger-menu');
+    const navContainer = document.getElementById('nav-container');
+    
+    hamburgerMenu.addEventListener('click', function() {
+      hamburgerMenu.classList.toggle('active');
+      navContainer.classList.toggle('active');
+    });
+    
+    // Close menu when clicking on a navigation link
+    const navLinks = navContainer.querySelectorAll('a');
+    navLinks.forEach(link => {
+      link.addEventListener('click', function() {
+        hamburgerMenu.classList.remove('active');
+        navContainer.classList.remove('active');
+      });
+    });
+    
+    // Close menu when clicking outside
+    document.addEventListener('click', function(event) {
+      const isClickInsideNav = navContainer.contains(event.target);
+      const isClickOnHamburger = hamburgerMenu.contains(event.target);
+      
+      if (!isClickInsideNav && !isClickOnHamburger && navContainer.classList.contains('active')) {
+        hamburgerMenu.classList.remove('active');
+        navContainer.classList.remove('active');
+      }
+    });
+    
+    // Close menu on window resize if it's open
+    window.addEventListener('resize', function() {
+      if (window.innerWidth > 768) {
+        hamburgerMenu.classList.remove('active');
+        navContainer.classList.remove('active');
+      }
+    });
+  </script>
+</body>
+</html>
